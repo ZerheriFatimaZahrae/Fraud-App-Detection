@@ -101,8 +101,8 @@ services:
 volumes:
   grafana-data:
 ````
-## Réalisation
-### 1- Class Transaction
+## Setup
+### 1-  Transaction
 ````java
 package zerheri.fatima;
 
@@ -153,7 +153,7 @@ public class Transaction {
 
 
 ````
-### 2- Class TransactionProducer
+### 2- TransactionProducer  
 ````java
 package zerheri.fatima;
 
@@ -235,7 +235,7 @@ public class TransactionProducer {
 
 
 ````
-### 3- Class TransactionProcessor
+### 3-  TransactionProcessor
 ````java
 package zerheri.fatima;
 
@@ -391,7 +391,7 @@ public class TransactionConsumer {
 
 ````
 
-## Résultats
+## Results 
 ### 1. Start the Environment
 
 Use the provided `docker-compose.yml` file to start Kafka, InfluxDB, and Grafana.
